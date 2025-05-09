@@ -2,10 +2,15 @@
   "name": "parcel_teste",
   "version": "1.0.0",
   "scripts": {
-  "dev": "parcel src/index.html",
-  "build": "parcel build src/index.html"
-},
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
   "dependencies": {
-    "parcel": "^2.10.0"
+    "parcel": "^2.10.0",
+    "svgo": "^3.3.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "sharp": "^0.33.5"
   }
 }
